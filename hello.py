@@ -5,3 +5,4 @@ for i in range(0,3):
 fh = urllib.request.urlopen('https://www.w3.org/TR/PNG/iso_8859-1.txt')
 data = fh.read().decode()
 print(data)
+print(len(data))
